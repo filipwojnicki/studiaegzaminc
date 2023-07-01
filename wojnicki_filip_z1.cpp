@@ -3,9 +3,10 @@
 template <int X, int Y>
 class NWD {
 public:
-    static const int wynik = NWD<X % Y, Y>::wynik;
+    static const int wynik = NWD<Y, X % Y>::wynik;
 };
 
+// Specialization to end the recursive process when one of the arguments reaches 0
 template <int X>
 class NWD<X, 0> {
 public:
