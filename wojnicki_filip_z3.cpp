@@ -1,1 +1,1 @@
-Jeśli reszta z dzielenia x przez 3 jest równa 1, to wypisuje x, w przeciwnym razie wypisuje x - 1.
+1, 2, 4, 4, 5, 7, 7, 
