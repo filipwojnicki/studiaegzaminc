@@ -1,0 +1,1 @@
+sort(vecX.begin() + 22, vecX.begin() + 89, Mniejszy<std::string, int>);
